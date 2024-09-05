@@ -1,0 +1,15 @@
+==== FEE REPORT ===== 
+Year: 2023
+Fee: $50000
+Last Date: 2023-12-31
+Entry: Sam
+==== FEE REPORT ===== 
+Year: 2024
+Fee: $55000
+Last Date: 2024-12-31
+Entry: Rose Ironman
+==== FEE REPORT ===== 
+Year: 2025
+Fee: $60000
+Last Date: 2025-12-31
+Entry: N/A
