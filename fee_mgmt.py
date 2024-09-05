@@ -9,6 +9,18 @@ students = {
     8: {"name": "Harry", "year": 2023, "fees_paid": False, "percentage": 95},
     9: {"name": "Ironman", "year": 2024, "fees_paid": False, "percentage": 79},
     10: {"name": "Potter", "year": 2025, "fees_paid": False, "percentage": 98},
+    11: {"name": "Fan", "year": 2023, "fees_paid": False, "percentage": 99},
+    12: {"name": "Table", "year": 2024, "fees_paid": False, "percentage": 65},
+    13: {"name": "Chair", "year": 2025, "fees_paid": False, "percentage": 97},
+    14: {"name": "Bed", "year": 2023, "fees_paid": False, "percentage": 81},
+    15: {"name": "Cup", "year": 2024, "fees_paid": False, "percentage": 89},
+    16: {"name": "Bag", "year": 2025, "fees_paid": False, "percentage": 33},
+    17: {"name": "Cap", "year": 2023, "fees_paid": False, "percentage": 95},
+    18: {"name": "Charger", "year": 2024, "fees_paid": False, "percentage": 75},
+    19: {"name": "Drawer", "year": 2025, "fees_paid": False, "percentage": 89},
+    20: {"name": "Door", "year": 2023, "fees_paid": False, "percentage": 96},
+    21: {"name": "Handle", "year": 2024, "fees_paid": False, "percentage": 94},
+    22: {"name": "Specs", "year": 2025, "fees_paid": False, "percentage": 98},
 }
 
 fee_struct = {
@@ -43,7 +55,7 @@ def find_fee_defaulters_by_year():
         if st["year"] == year and not st["fees_paid"]:
             default.append(st["name"])   
     if default:
-        print(f"Fee default for the year, {year}: {' , '.join(default)}")
+        print(f"Fee default for the year, {year}: {','.join(default)}")
     else:
         print(f"No fee defaulters found for the year {year}")  
 
@@ -54,7 +66,7 @@ def display_unpaid_students_by_year():
         if st["year"] == year and not st["fees_paid"]:
             unpaid.append(st["name"])
     if unpaid:
-        print(f"Students who have not submitted fees for the year {year}: {' , '.join(unpaid)}")
+        print(f"Students who have not submitted fees for the year {year}: {','.join(unpaid)}")
     else:
         print(f"All students have submitted fees for the year {year}")  
 
@@ -74,17 +86,17 @@ def display_last_date_of_fee_submission():
 
 
 def generate_report():
-    file.write(f"==== FEE REPORT ===== \n") 
     with open("fee_report.txt", 'w') as file:
+        file.write(f"==== FEE REPORT ===== \n") 
         for year in fee_struct:
-            entry = []
+            defaulter = []
             for st in students.values():
                 if st["year"] == year and not st["fees_paid"]:
-                    entry.append(st["name"]) 
-            file.write(f"Year: {year}\n")
-            file.write(f"Fee: ${fee_struct[year]}\n")
-            file.write(f"Last Date: {last_date_for_fees[year]}\n")
-            file.write(f"Entry: {' '.join(entry) if entry else 'N/A'}\n")
+                    defaulter.append(st["name"]) 
+            file.write(f"YEAR: {year}\n")
+            file.write(f"FEE: {fee_struct[year]}\n")
+            file.write(f"LAST DATE: {last_date_for_fees[year]}\n")
+            file.write(f"DEFAULTER: {' '.join(defaulter) if defaulter else 'N/A'}\n\n")
 
     print("Report generated successfully!")                 
 
