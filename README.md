@@ -23,7 +23,7 @@ The program operates on a simple menu-driven interface, where users can choose f
 
 
 How to Use - 
-Clone the Repository or Download the File
+Clone the Repository - 
 git clone https://github.com/your-username/fee-mgmt-system.git
 
 Run the Program
