@@ -87,7 +87,7 @@ def display_last_date_of_fee_submission():
 
 def generate_report():
     with open("fee_report.txt", 'w') as file:
-        file.write(f"==== FEE REPORT ===== \n") 
+        file.write(f"==== DEFAULTER FEE REPORT ===== \n") 
         for year in fee_struct:
             defaulter = []
             for st in students.values():
