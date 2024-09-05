@@ -1,0 +1,134 @@
+{
+     "1": {
+          "name": "John",
+          "year": 2023,
+          "fees_paid": true,
+          "percentage": 92
+     },
+     "2": {
+          "name": "Jane",
+          "year": 2024,
+          "fees_paid": true,
+          "percentage": 97
+     },
+     "3": {
+          "name": "Sam",
+          "year": 2023,
+          "fees_paid": true,
+          "percentage": 80
+     },
+     "4": {
+          "name": "Lisa ",
+          "year": 2025,
+          "fees_paid": false,
+          "percentage": 88
+     },
+     "5": {
+          "name": "James",
+          "year": 2023,
+          "fees_paid": false,
+          "percentage": 87
+     },
+     "6": {
+          "name": "Rose",
+          "year": 2024,
+          "fees_paid": false,
+          "percentage": 96
+     },
+     "7": {
+          "name": "Marry",
+          "year": 2025,
+          "fees_paid": false,
+          "percentage": 80
+     },
+     "8": {
+          "name": "Harry",
+          "year": 2023,
+          "fees_paid": false,
+          "percentage": 95
+     },
+     "9": {
+          "name": "Ironman",
+          "year": 2024,
+          "fees_paid": false,
+          "percentage": 79
+     },
+     "10": {
+          "name": "Potter",
+          "year": 2025,
+          "fees_paid": false,
+          "percentage": 98
+     },
+     "11": {
+          "name": "Fan",
+          "year": 2023,
+          "fees_paid": false,
+          "percentage": 99
+     },
+     "12": {
+          "name": "Table",
+          "year": 2024,
+          "fees_paid": false,
+          "percentage": 65
+     },
+     "13": {
+          "name": "Chair",
+          "year": 2025,
+          "fees_paid": false,
+          "percentage": 97
+     },
+     "14": {
+          "name": "Bed",
+          "year": 2023,
+          "fees_paid": false,
+          "percentage": 81
+     },
+     "15": {
+          "name": "Cup",
+          "year": 2024,
+          "fees_paid": false,
+          "percentage": 89
+     },
+     "16": {
+          "name": "Bag",
+          "year": 2025,
+          "fees_paid": false,
+          "percentage": 33
+     },
+     "17": {
+          "name": "Cap",
+          "year": 2023,
+          "fees_paid": false,
+          "percentage": 95
+     },
+     "18": {
+          "name": "Charger",
+          "year": 2024,
+          "fees_paid": false,
+          "percentage": 75
+     },
+     "19": {
+          "name": "Drawer",
+          "year": 2025,
+          "fees_paid": false,
+          "percentage": 89
+     },
+     "20": {
+          "name": "Door",
+          "year": 2023,
+          "fees_paid": false,
+          "percentage": 96
+     },
+     "21": {
+          "name": "Handle",
+          "year": 2024,
+          "fees_paid": false,
+          "percentage": 94
+     },
+     "22": {
+          "name": "Specs",
+          "year": 2025,
+          "fees_paid": false,
+          "percentage": 98
+     }
+}
